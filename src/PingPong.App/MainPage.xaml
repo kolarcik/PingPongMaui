@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PingPong.App.MainPage"
+             Title="Ping Pong">
+    <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
+        <Label Text="Ping Pong"
+               FontSize="40"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+        <Label Text="Game coming soon..."
+               FontSize="18"
+               HorizontalOptions="Center"
+               TextColor="{StaticResource Secondary}" />
+    </VerticalStackLayout>
+</ContentPage>
