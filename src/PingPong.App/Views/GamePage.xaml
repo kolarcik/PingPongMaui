@@ -7,8 +7,64 @@
              Shell.NavBarIsVisible="False">
 
     <Grid BackgroundColor="Black">
+        <!-- Game canvas -->
         <GraphicsView x:Name="GameCanvas"
                       HorizontalOptions="Fill"
                       VerticalOptions="Fill" />
+
+        <!-- Score display -->
+        <HorizontalStackLayout
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Padding="0,40,0,0"
+            Spacing="20">
+            <Label x:Name="OpponentScoreLabel"
+                   Text="{Binding OpponentScore}"
+                   TextColor="White"
+                   FontSize="36"
+                   FontAttributes="Bold" />
+            <Label Text="-"
+                   TextColor="Gray"
+                   FontSize="36" />
+            <Label x:Name="PlayerScoreLabel"
+                   Text="{Binding PlayerScore}"
+                   TextColor="White"
+                   FontSize="36"
+                   FontAttributes="Bold" />
+        </HorizontalStackLayout>
+
+        <!-- Pause button -->
+        <Button x:Name="PauseButton"
+                Text="⏸"
+                HorizontalOptions="End"
+                VerticalOptions="Start"
+                Margin="0,40,20,0"
+                WidthRequest="40"
+                HeightRequest="40"
+                BackgroundColor="Transparent"
+                TextColor="White" />
+
+        <!-- Game Over overlay -->
+        <Grid x:Name="GameOverOverlay"
+              IsVisible="{Binding IsGameOver}"
+              BackgroundColor="#80000000">
+            <VerticalStackLayout
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Spacing="20">
+                <Label Text="{Binding GameOverText}"
+                       TextColor="White"
+                       FontSize="48"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+                <Button x:Name="RestartButton"
+                        Text="Restart"
+                        TextColor="White"
+                        BackgroundColor="#333333"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        Padding="30,15" />
+            </VerticalStackLayout>
+        </Grid>
     </Grid>
 </ContentPage>
