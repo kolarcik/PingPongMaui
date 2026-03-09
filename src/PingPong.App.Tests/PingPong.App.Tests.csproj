@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!-- Compile pure C# Core classes directly to avoid MAUI target framework incompatibility -->
+    <!-- Compile pure C# Game classes directly to avoid MAUI target framework incompatibility -->
     <Compile Include="../PingPong.App/Game/Core/*.cs" />
     <Compile Include="../PingPong.App/Game/Systems/*.cs" />
   </ItemGroup>
