@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Logging;
 
-namespace PingPong.App;
+namespace PingPong;
 
 public static class MauiProgram
 {

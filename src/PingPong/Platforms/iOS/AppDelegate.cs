@@ -3,7 +3,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using UIKit;
 
-namespace PingPong.App;
+namespace PingPong;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

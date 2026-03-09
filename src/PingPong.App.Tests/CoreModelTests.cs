@@ -1,4 +1,4 @@
-using PingPong.App.Game.Core;
+using PingPong.Game.Core;
 
 namespace PingPong.App.Tests;
 

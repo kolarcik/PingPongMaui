@@ -1,4 +1,4 @@
-namespace PingPong.App.Views;
+namespace PingPong.Views;
 
 public partial class GamePage : ContentPage
 {

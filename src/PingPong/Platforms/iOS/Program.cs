@@ -1,7 +1,7 @@
 using ObjCRuntime;
 using UIKit;
 
-namespace PingPong.App;
+namespace PingPong;
 
 public class Program
 {

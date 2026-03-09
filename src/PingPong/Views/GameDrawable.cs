@@ -1,6 +1,6 @@
-namespace PingPong.App.Views;
+namespace PingPong.Views;
 
-using PingPong.App.Game.Core;
+using PingPong.Game.Core;
 
 public class GameDrawable : IDrawable
 {

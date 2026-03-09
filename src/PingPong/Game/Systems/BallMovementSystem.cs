@@ -1,6 +1,6 @@
-namespace PingPong.App.Game.Systems;
+namespace PingPong.Game.Systems;
 
-using PingPong.App.Game.Core;
+using PingPong.Game.Core;
 
 public class BallMovementSystem
 {

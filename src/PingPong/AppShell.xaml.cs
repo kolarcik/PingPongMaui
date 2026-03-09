@@ -1,4 +1,4 @@
-namespace PingPong.App;
+namespace PingPong;
 
 public partial class AppShell : Shell
 {

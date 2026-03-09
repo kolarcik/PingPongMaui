@@ -1,4 +1,4 @@
-namespace PingPong.App.Game.Core;
+namespace PingPong.Game.Core;
 
 public class Arena
 {

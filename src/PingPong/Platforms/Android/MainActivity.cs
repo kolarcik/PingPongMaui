@@ -2,7 +2,7 @@ using Android.App;
 using Android.Content.PM;
 using Microsoft.Maui;
 
-namespace PingPong.App;
+namespace PingPong;
 
 [Activity(
     Theme = "@style/Maui.SplashTheme",

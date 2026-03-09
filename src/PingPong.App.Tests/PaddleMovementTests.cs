@@ -1,5 +1,5 @@
-using PingPong.App.Game.Core;
-using PingPong.App.Game.Systems;
+using PingPong.Game.Core;
+using PingPong.Game.Systems;
 
 namespace PingPong.App.Tests;
 

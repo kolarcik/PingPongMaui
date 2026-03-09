@@ -3,7 +3,7 @@ using Android.Runtime;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace PingPong.App;
+namespace PingPong;
 
 [Application]
 public class MainApplication : MauiApplication
