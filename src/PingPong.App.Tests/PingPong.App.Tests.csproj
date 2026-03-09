@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!-- Note: Only non-MAUI types from PingPong.App can be tested here (net9.0 target) -->
-    <!-- <ProjectReference Include="../PingPong.App/PingPong.App.csproj" /> -->
+    <!-- Compile pure C# Core classes directly to avoid MAUI target framework incompatibility -->
+    <Compile Include="../PingPong.App/Game/Core/*.cs" />
   </ItemGroup>
 </Project>
